@@ -1,0 +1,73 @@
+---
+title: "About PALab"
+title-block-style: none
+page-layout: full
+format:
+  html:
+    css:
+      - "../styles/palab-pages.css"
+      - "../styles/palab-about.css"
+---
+
+```{=html}
+<div class="palab-page palab-about">
+  <header class="about-opening">
+    <div class="about-brand" aria-label="PALab People Analytics Lab"><span class="about-brand-wordmark">PALab</span><span class="about-brand-subtitle">People Analytics Lab</span></div>
+    <h1>데이터 분석의 출발은 질문에 있습니다.</h1>
+    <p class="about-lead">PALab는 'People Analytics Lab'의 약칭입니다. HR 데이터 분석 입문자와 실무자를 위해 가상의 기업 미래리빙(주)에서 펼쳐지는 다양한 문제들에 <br>대한 정의, 분석, 해석, 의사결정의 각 단계를 경험하는 학습 플랫폼입니다.</p>
+  </header>
+  <section class="about-section" aria-labelledby="about-method-title">
+    <h2 id="about-method-title">학습 방식</h2>
+    <div class="about-method-grid">
+      <div class="about-method"><span>01</span><strong>문제 정의</strong><p>어떤 HR 문제를 해결해야 하는지 <br>질문을 구체화합니다.</p></div>
+      <div class="about-method"><span>02</span><strong>데이터 분석</strong><p>원자료를 직접 다루고 적절한 분석 <br>방법을 적용합니다.</p></div>
+      <div class="about-method"><span>03</span><strong>인사이트 도출</strong><p>분석 결과의 의미와 한계를 해석하고,<br>HR 인사이트를 도출합니다.</p></div>
+      <div class="about-method"><span>04</span><strong>HR 의사결정</strong><p>분석 근거를 바탕으로 실행 가능한 <br>대응 방안을 검토합니다.</p></div>
+    </div>
+  </section>
+  <section class="about-section" aria-labelledby="about-people-title">
+    <h2 id="about-people-title">미래리빙(주) 등장인물</h2>
+    <p class="about-company">미래리빙(주)은 HR 데이터 분석 실습을 위한 가상의 제조·유통기업입니다. 각 등장인물과 학습 사례(가상 사건)는 학습 목적에 따라 다양하게 구성됩니다.</p>
+    <figure class="about-team-figure"><img src="../assets/images/about/mirae-living-team.png" alt="미래리빙의 왕성훈 CEO, 참지혜 CHRO, 나준호 HRBP 매니저, 정하은 HRIS 매니저가 함께 서 있는 모습"><figcaption>미래리빙(주) · People Analytics Lab의 등장인물</figcaption></figure>
+    <div class="about-people-grid">
+      <article class="about-person">
+        <img class="about-person-photo" src="../assets/images/about/wang.png" alt="왕성훈 프로필">
+        <div class="about-person-content">
+          <h3>왕성훈<span>CEO</span></h3>
+          <p class="about-person-trait">사업 성과와 실행을 중시하는 의사결정자</p>
+          <p class="about-person-desc">조직의 성과와 핵심 인재 확보에 관심이 많다. 현장의 작은 변화도 경영 위험으로 이어질 수 있다고 생각하며, 복잡한 분석보다 명확한 결론과 실행 방향을 요구한다. 때로는 제한된 정보로 빠른 판단을 내리려는 성향이 있어, 분석팀이 데이터로 가설을 검증하도록 만드는 인물이다.</p>
+          <p class="about-person-quote">“그래서 이 문제가 우리 사업에 얼마나 중요한 겁니까?”</p>
+        </div>
+      </article>
+      <article class="about-person">
+        <img class="about-person-photo" src="../assets/images/about/cham.png" alt="참지혜 프로필">
+        <div class="about-person-content">
+          <h3>참지혜<span>CHRO</span></h3>
+          <p class="about-person-trait">사람과 조직의 맥락을 함께 고려하는 전략가</p>
+          <p class="about-person-desc">HR 정책이 구성원 경험과 사업 성과에 어떤 영향을 미치는지 고민한다. 데이터 분석의 필요성을 이해하면서도 수치만으로 사람의 행동을 설명하는 데 신중하다. 경영진의 문제의식을 구체적인 HR 질문으로 전환하고, 분석 결과가 실행 가능한 인사 전략으로 연결되도록 이끈다.</p>
+          <p class="about-person-quote">“이 결과를 HR 관점에서 어떻게 해석하고 대응해야 할까요?”</p>
+        </div>
+      </article>
+      <article class="about-person">
+        <img class="about-person-photo" src="../assets/images/about/na.png" alt="나준호 프로필">
+        <div class="about-person-content">
+          <h3>나준호<span>HRBP 매니저</span></h3>
+          <p class="about-person-trait">현장의 목소리와 조직의 현실을 전달하는 실무자</p>
+          <p class="about-person-desc">구성원 및 현업 리더들과 가까이 일하며 조직의 실제 상황을 잘 이해한다. 숫자로 드러나지 않는 업무 부담, 리더십, 조직문화 문제를 민감하게 포착한다. 실무 경험을 바탕으로 가설을 제시하지만, 때로는 일부 현장의 사례를 전체 조직의 문제로 받아들일 수 있어 데이터 검증이 필요하다.</p>
+          <p class="about-person-quote">“현장에서 들은 이야기와 데이터가 다르게 나타나는 이유는 뭘까요?”</p>
+        </div>
+      </article>
+      <article class="about-person">
+        <img class="about-person-photo" src="../assets/images/about/jeong.png" alt="정하은 프로필">
+        <div class="about-person-content">
+          <h3>정하은<span>HRIS 매니저</span></h3>
+          <p class="about-person-trait">데이터의 정확성과 분석 기준을 지키는 전문가</p>
+          <p class="about-person-desc">HR 데이터의 구조와 관리 체계를 이해하고 있으며, 지표 정의와 데이터 품질을 중요하게 생각한다. 분석에 앞서 누락값, 집계 기간, 대상자 기준을 확인하는 꼼꼼한 성향이다. 다른 인물들이 결과를 서둘러 해석하려 할 때, 데이터의 한계와 비교 가능성을 짚어주는 역할을 한다.</p>
+          <p class="about-person-quote">“그 수치를 계산한 기준부터 확인해 볼까요?”</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <nav class="about-cta-row" aria-label="페이지 이동"><a class="about-cta" href="../cases/season-01/">Season 01 살펴보기 <span aria-hidden="true">→</span></a><a class="about-cta about-cta-home" href="../index.html">Home으로 돌아가기 <span aria-hidden="true">→</span></a></nav>
+</div>
+```

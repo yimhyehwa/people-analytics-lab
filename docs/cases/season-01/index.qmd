@@ -1,0 +1,29 @@
+---
+title: "Season 01 | 사라지는 인재들"
+title-block-style: none
+page-layout: full
+format:
+  html:
+    css: "../../styles/palab-pages.css"
+---
+
+```{=html}
+<div class="palab-page">
+
+<p class="crumb"><a href="../index.qmd">Cases</a> / Season 01</p>
+<p class="eyebrow">Season 01 · People Analytics Case</p>
+<h1>사라지는 인재들</h1>
+<p class="lead">미래리빙(주)의 이직률이 빠르게 높아지고 있다는 보고가 들어왔습니다. 그런데 정말 이직률이 높아진 걸까요? 단순한 인원수 변화와 실제 이직률 상승은 어떻게 구분할 수 있을까요?</p>
+<div class="panel"><strong>당신의 역할</strong><p>미래리빙(주)의 HR Analytics 담당자로서 인재 이탈 문제를 정의하고, 데이터를 분석해 경영진에게 실행 가능한 제안을 전달합니다.</p><strong>학습 목표</strong><div class="steps"><span class="step">문제 정의</span><span class="step">현황 탐색</span><span class="step">원인 분석</span><span class="step">개선안 도출</span></div></div>
+<h2>학습 에피소드</h2>
+<div class="card-grid two">
+<a class="palab-tile" href="ep01.qmd"><span class="tile-num">EP01 · FOUNDATION</span><strong class="tile-title">퇴사자가 정말 늘었을까?</strong><span class="tile-desc">분석 질문을 정의하고 이직률 지표를 점검합니다.</span></a>
+<a class="palab-tile" href="ep02.qmd"><span class="tile-num">EP02 · EXPLORATION</span><strong class="tile-title">어디에서 사람들이 떠나고 있을까?</strong><span class="tile-desc">집단별 이직 현황을 탐색합니다.</span></a>
+<a class="palab-tile" href="ep03.qmd"><span class="tile-num">EP03 · ANALYSIS</span><strong class="tile-title">왜 우리 회사에서 떠날까?</strong><span class="tile-desc">이직과 관련된 요인을 검토합니다.</span></a>
+<a class="palab-tile" href="ep04.qmd"><span class="tile-num">EP04 · SOLUTION</span><strong class="tile-title">이직을 줄이기 위해 무엇을 할 수 있을까?</strong><span class="tile-desc">분석 결과를 의사결정과 실행안으로 연결합니다.</span></a>
+</div>
+<p class="note">현재는 학습 페이지의 골격과 이동 경로를 마련한 단계입니다. 데이터셋과 실습 문제, 정답 및 해설은 에피소드별로 검수 후 채웁니다.</p>
+<a class="primary-link" href="ep01.qmd">EP01 학습 시작하기 →</a>
+
+</div>
+```

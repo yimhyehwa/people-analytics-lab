@@ -1,0 +1,24 @@
+---
+title: "Toolkit"
+title-block-style: none
+page-layout: full
+format:
+  html:
+    css: "../styles/palab-pages.css"
+---
+
+```{=html}
+<div class="palab-page">
+
+<p class="eyebrow">Toolkit · 실무 분석 지원</p><h1>분석에 필요한 개념과 도구를 한곳에.</h1>
+<p class="lead">Cases에서 만나는 분석 질문을 해결할 때 필요한 통계 개념, Excel 실습, 데이터 정리 방법, AI 활용 가이드와 템플릿을 제공할 공간입니다.</p>
+<div class="card-grid">
+<div class="panel"><strong>Concepts · 통계와 HR 지표</strong><p>이직률, 비율 비교, 분포, 추론 등</p></div>
+<div class="panel"><strong>Tool Guides · 분석 도구</strong><p>Excel, jamovi, R, Python 사용법과 데이터 정제·시각화</p></div>
+<div class="panel"><strong>Practice · 반복 실습</strong><p>추가 데이터셋을 활용한 독립 실습과 분석 체크리스트</p></div>
+</div>
+<p class="note">위 자료는 예정된 카테고리입니다. 실제 자료 파일은 검수 후 순차적으로 연결합니다.</p>
+<a class="secondary-link" href="../cases/season-01/index.qmd">Season 01 학습으로 돌아가기 →</a>
+
+</div>
+```

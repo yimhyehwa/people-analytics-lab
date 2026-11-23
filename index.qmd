@@ -1,0 +1,68 @@
+---
+title: "Home"
+title-block-style: none
+page-layout: full
+---
+
+```{=html}
+<div class="palab-home">
+<section class="palab-hero">
+<div class="palab-home-container">
+<div class="palab-hero-grid">
+  <div class="palab-hero-copy">
+    <p class="palab-eyebrow">PEOPLE ANALYTICS LAB</p>
+    <h1>당신이 HR Analytics<br>담당자라면?</h1>
+    <p class="palab-hero-description">가상의 기업, 미래리빙(주)에서 벌어지는 실제 같은 HR 문제를 데이터로 분석하고, 근거 있는 의사결정을 만들어 보세요.</p>
+    <div class="palab-hero-actions">
+      <a class="palab-hero-primary" href="cases/season-01/index.qmd">Season 01 시작하기</a>
+      <a class="palab-hero-secondary" href="about/">PALab 소개</a>
+    </div>
+  </div>
+  <div class="palab-hero-image">
+    <img class="palab-team-image" src="assets/images/characters/palab-team-closeup.png" alt="미래리빙의 왕성훈, 참지혜, 나준호, 정하은">
+    <div class="palab-character-labels">
+      <div class="palab-character-label"><strong>왕성훈</strong><span>CEO</span></div>
+      <div class="palab-character-label"><strong>참지혜</strong><span>인사총괄 (CHRO)</span></div>
+      <div class="palab-character-label"><strong>나준호</strong><span>HRBP 매니저</span></div>
+      <div class="palab-character-label"><strong>정하은</strong><span>HRIS 매니저</span></div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+<!-- PALab Home — Season 01 and quick links -->
+<section class="palab-discover" aria-label="PALab 학습 콘텐츠">
+  <div class="palab-discover-inner">
+    <div class="palab-feature-grid">
+      <article class="palab-season-card">
+        <div class="palab-season-art" aria-hidden="true"></div>
+        <div class="palab-season-copy">
+          <span class="palab-season-tag">Season 01</span>
+          <h2>사라지는 인재들</h2>
+          <p>미래리빙(주)의 이직률이 빠르게 높아지고 있습니다.<br>문제는 정말 이직률일까요, 아니면 숫자가 말하지 않는<br class="palab-desktop-break"> 다른 이유가 있는 걸까요?</p>
+          <a class="palab-season-button" href="cases/season-01/index.qmd">시즌 전체 보기 <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <div class="palab-episode-list" aria-label="Season 01 에피소드">
+        <a class="palab-episode is-featured" href="cases/season-01/ep01.qmd"><span class="palab-episode-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 17v-5h4v5M10 17V8h4v9M15 17V4h4v13"/></svg></span><span class="palab-episode-text"><small>EP01 <b>|</b> Foundation</small><strong>퇴사자가 정말 늘었을까?</strong></span><span class="palab-episode-arrow" aria-hidden="true">›</span></a>
+        <a class="palab-episode" href="cases/season-01/ep02.qmd"><span class="palab-episode-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2.5 20v-2c0-3 2.8-5 6.5-5s6.5 2 6.5 5v2M16 14c3.5 0 5.5 1.7 5.5 4.5V20"/></svg></span><span class="palab-episode-text"><small>EP02 <b>|</b> Exploration</small><strong>어디에서 사람들이 떠나고 있을까?</strong></span><span class="palab-episode-arrow" aria-hidden="true">›</span></a>
+        <a class="palab-episode" href="cases/season-01/ep03.qmd"><span class="palab-episode-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="3.5" r="2"/><circle cx="4" cy="11.5" r="2"/><circle cx="20" cy="11.5" r="2"/><circle cx="8" cy="20" r="2"/><circle cx="17" cy="20" r="2"/><path d="M10.5 5 5.5 10M13.5 5l5 5M5.5 13l2 5M18.5 13l-1.5 5M10 20h5M6 12h12"/></svg></span><span class="palab-episode-text"><small>EP03 <b>|</b> Analysis</small><strong>왜 우리 회사에서 떠날까?</strong></span><span class="palab-episode-arrow" aria-hidden="true">›</span></a>
+        <a class="palab-episode" href="cases/season-01/ep04.qmd"><span class="palab-episode-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M8 10h2m2 0h4M8 15l2 2 4-4"/></svg></span><span class="palab-episode-text"><small>EP04 <b>|</b> Solution</small><strong>이직을 줄이기 위해 무엇을 할 수 있을까?</strong></span><span class="palab-episode-arrow" aria-hidden="true">›</span></a>
+      </div>
+    </div>
+    <nav class="palab-quick-links" aria-label="PALab 주요 메뉴">
+      <a class="palab-quick-card" href="cases/season-01/"><span class="palab-quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.5c-2.5-1.8-5.5-2-9-1.5v14c3.5-.5 6.5-.3 9 1.5m0-14c2.5-1.8 5.5-2 9-1.5v14c-3.5-.5-6.5-.3-9 1.5m0-14v14"/></svg></span><span class="palab-quick-text"><strong>Cases</strong><small>시즌별 에피소드로 배우는<br>HR Analytics 실전 사례</small></span><span class="palab-quick-arrow" aria-hidden="true">→</span></a>
+      <a class="palab-quick-card" href="toolkit/"><span class="palab-quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"/></svg></span><span class="palab-quick-text"><strong>Toolkit</strong><small>분석에 바로 쓰는 실무 템플릿,<br>가이드, 체크리스트</small></span><span class="palab-quick-arrow" aria-hidden="true">→</span></a>
+      <a class="palab-quick-card" href="about/"><span class="palab-quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg></span><span class="palab-quick-text"><strong>About</strong><small>미래리빙(주)와 등장인물,<br>그리고 PALab 이야기</small></span><span class="palab-quick-arrow" aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</section>
+
+</div>
+```
+
+
+

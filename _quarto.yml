@@ -1,0 +1,26 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PALab"
+  navbar:
+    background: "#FFFFFF"
+    foreground: "#1B3453"
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Cases"
+        href: cases/index.qmd
+      - text: "Toolkit"
+        href: toolkit/index.qmd
+      - text: "About"
+        href: about/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles/palab.css
+    toc: false

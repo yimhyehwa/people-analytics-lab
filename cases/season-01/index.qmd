@@ -1,0 +1,24 @@
+---
+title: "사라지는 인재들"
+title-block-style: none
+page-layout: full
+format:
+  html:
+    css: "../../styles/palab-story.css"
+---
+
+```{=html}
+<div class="palab-story">
+<p class="crumb crumb-large"><a href="../index.html">Cases</a> / Season 01</p>
+<section class="story-hero"><div class="eyebrow">PEOPLE ANALYTICS LAB</div><h1>사라지는 인재들</h1><p>미래리빙(주)의 인재 이탈 문제를 진단하고 경영진에게 대응 방안을 제안하세요.</p><img class="story-photo meeting-photo" src="../../assets/images/season01/meeting-scene.png" alt="미래리빙 네 명의 등장인물"><div class="story-caption">왕성훈 CEO · 참지혜 CHRO · 나준호 HRBP · 정하은 HRIS</div></section>
+<h2 class="section-heading">01 · 문제의 시작: 경영진 회의</h2><p class="intro">2026년 초. 생활가전·홈리빙 중견기업 미래리빙(주)의 경영진 회의에서 숙련 인력의 이탈 문제가 제기되었습니다. 그러나 실제로 회사 전체의 이직률이 상승했는지는 아직 확인되지 않았습니다.</p><div class="scene" style="margin-top:19px"><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/wang.png" alt="왕성훈 프로필"><div><div class="speaker">왕성훈<span>CEO</span></div><p class="dialogue-lines"><span class="dialogue-line">“최근 주요 인력이 빠져나간다는 이야기가 계속 들립니다.</span><span class="dialogue-line">회사 전체의 문제인지 정확히 알고 싶습니다.”</span></p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/cham.png" alt="참지혜 프로필"><div><div class="speaker">참지혜<span>CHRO</span></div><p class="dialogue-lines"><span class="dialogue-line">“퇴사자 수만으로 판단하지 말아야 합니다.</span><span class="dialogue-line">이직률과 조직별 차이를 먼저 확인하겠습니다.”</span></p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/na.png" alt="나준호 프로필"><div><div class="speaker">나준호<span>HRBP 매니저</span></div><p class="dialogue-lines"><span class="dialogue-line">“현업에서는 경력직 이탈과 인수인계 공백을 호소합니다.</span><span class="dialogue-line">조직별 상황도 살펴보겠습니다.”</span></p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/jeong.png" alt="정하은 프로필"><div><div class="speaker">정하은<span>HRIS 매니저</span></div><p class="dialogue-lines"><span class="dialogue-line">“최근 3년의 인사 데이터를 준비하겠습니다.</span><span class="dialogue-line">퇴직 구분과 집계 기준부터 확인해야 합니다.”</span></p></div></article></div>
+<div class="mission-banner"><strong>🎯 당신의 미션 · People Analytics 담당자</strong><p>2023~2025년 인사 데이터를 분석해 이직 현황을 검증하고, 이탈이 집중되는 집단과 관련 요인을 살펴본 뒤 실행 가능한 대응안을 제안하세요.</p></div>
+<h2 class="section-heading">02 · 네 가지 질문을 순서대로 해결하세요</h2><div class="episode-grid">
+<a class="episode-card" href="ep01.html"><small>EP01 · FOUNDATION</small><strong>퇴사자가 정말 늘었을까?</strong><p>자발적 이직률을 직접 계산해 경영진의 우려를 검증합니다.</p><span class="go">EP01 시작하기 →</span></a>
+<a class="episode-card" href="ep02.html"><small>EP02 · EXPLORATION</small><strong>어디에서 사람들이 떠나고 있을까?</strong><p>조직별 이직률을 비교해 우선 확인할 집단을 찾습니다.</p><span class="go">EP02 살펴보기 →</span></a>
+<a class="episode-card" href="ep03.html"><small>EP03 · ANALYSIS</small><strong>왜 우리 회사에서 떠날까?</strong><p>이직과 관련된 요인을 검토하고 인과관계와 구분합니다.</p><span class="go">EP03 살펴보기 →</span></a>
+<a class="episode-card" href="ep04.html"><small>EP04 · SOLUTION</small><strong>이직을 줄이기 위해 무엇을 할 수 있을까?</strong><p>분석 근거를 바탕으로 실행안과 검증 지표를 설계합니다.</p><span class="go">EP04 살펴보기 →</span></a></div>
+<div class="context-strip"><span>입문 → 초급 실무</span><span>Excel · jamovi/Python 선택</span><span>최종 산출물: 경영진 제안서</span></div><p class="footer-hint">※ 미래리빙과 데이터는 학습용 가상 설정입니다. 각 에피소드의 데이터와 결과는 동일한 합성 데이터에 기반합니다.</p>
+</div>
+<script src="../../scripts/palab-learning.js" defer></script>
+```

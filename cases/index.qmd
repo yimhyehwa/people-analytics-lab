@@ -1,0 +1,15 @@
+---
+title: "Cases"
+title-block-style: none
+page-layout: full
+format:
+  html:
+    css: "../styles/palab-story.css"
+---
+
+```{=html}
+<div class="palab-story">
+<p class="crumb"><a href="../index.html">Home</a> / Cases</p><div class="eyebrow">PALAB · CASE-BASED LEARNING</div><h1>Cases</h1><p class="intro">하나의 HR 문제를 끝까지 분석하는 프로젝트형 학습입니다. 지금은 Season 01부터 시작합니다.</p><h2 class="section-heading">진행 중인 시즌</h2><a class="episode-card" href="season-01/index.html"><small>SEASON 01 · 미래리빙(주)</small><strong>사라지는 인재들</strong><p>네 캐릭터의 경영진 회의에서 시작해, 네 번의 분석 미션으로 이직 문제를 진단합니다.</p><span class="go">스토리와 네 가지 미션 확인하기 →</span></a>
+</div>
+<script src="../scripts/palab-learning.js" defer></script>
+```

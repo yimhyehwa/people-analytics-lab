@@ -1,0 +1,25 @@
+/* PALab inner pages: scoped; existing homepage/hero/nav styles are untouched */
+.palab-page {max-width:1180px;margin:0 auto;padding:48px 32px 84px;font-family:"Noto Sans KR",sans-serif;color:#193451;}
+.palab-page .eyebrow{font-size:12px;letter-spacing:.1em;font-weight:800;color:#2476b4;text-transform:uppercase;margin:0 0 12px}
+.palab-page h1{font-size:clamp(30px,3.3vw,43px);font-weight:800;letter-spacing:-.04em;line-height:1.25;margin:0 0 18px;color:#193451}
+.palab-page h2{font-size:25px;margin:34px 0 16px;color:#193451}
+.palab-page .lead{font-size:17px;line-height:1.85;color:#52677e;max-width:850px;margin:0 0 25px}
+.palab-page .crumb{font-size:13px;color:#6a7f95;margin:0 0 24px}
+.palab-page .crumb a{color:#176fb5;text-decoration:none}
+.palab-page .panel{background:#f2f6fb;border:1px solid #e0eaf5;border-radius:16px;padding:24px;margin:20px 0}
+.palab-page .card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:22px 0}
+.palab-page .card-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.palab-page a.palab-tile{display:block;background:white;border:1px solid #dce7f2;border-radius:14px;padding:24px;color:#193451;text-decoration:none;box-shadow:0 5px 18px rgba(24,55,90,.05);transition:transform .15s,box-shadow .15s}
+.palab-page a.palab-tile:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(24,55,90,.12)}
+.palab-page .tile-num{font-size:12px;color:#2476b4;font-weight:800;letter-spacing:.04em}
+.palab-page .tile-title{display:block;font-size:19px;font-weight:800;margin:10px 0}
+.palab-page .tile-desc{display:block;font-size:14px;line-height:1.7;color:#5c7085}
+.palab-page .primary-link{display:inline-block;background:#193451;color:white!important;text-decoration:none;padding:12px 22px;border-radius:30px;font-weight:700}
+.palab-page .secondary-link{display:inline-block;color:#176fb5;text-decoration:none;font-weight:700;margin:10px 16px 10px 0}
+.palab-page .steps{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.palab-page .step{background:#eaf3fd;color:#1b5789;border-radius:999px;padding:9px 16px;font-size:13px;font-weight:700}
+.palab-page .persona{font-size:15px;line-height:1.8}
+.palab-page .note{border-left:3px solid #1c76b6;padding:10px 18px;background:#f4f8fc;color:#52677e;font-size:14px}
+.palab-page .episode-nav{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid #dce7f2;margin-top:42px;padding-top:22px}
+.palab-page .episode-nav a{color:#176fb5;font-weight:700;text-decoration:none}
+@media(max-width:760px){.palab-page{padding:28px 18px 55px}.palab-page .card-grid,.palab-page .card-grid.two{grid-template-columns:1fr}.palab-page h1{font-size:30px}.palab-page .lead{font-size:15px}}

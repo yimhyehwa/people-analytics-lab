@@ -1,0 +1,43 @@
+/* About only: scoped; existing Home, Season and EP styles are not changed. */
+.palab-page.palab-about{max-width:1180px;padding-top:38px}
+.palab-about .about-opening{text-align:left;padding:8px 0 30px;border-bottom:1px solid #dce7f2}
+.palab-about .about-brand{font-family:Georgia,serif;font-size:47px;font-weight:800;letter-spacing:-.055em;color:#193451;line-height:1.1;margin:0 0 24px}
+.palab-about .about-brand span{display:block;font-family:'Noto Sans KR',sans-serif;font-size:12px;letter-spacing:.13em;font-weight:800;color:#5680a0;margin-top:8px}
+.palab-about .about-brand .about-brand-wordmark{font-size:36px;letter-spacing:-.04em;margin-top:0}
+.palab-about .about-opening h1{font-size:clamp(26px,3.1vw,37px);letter-spacing:-.04em;margin:0 0 20px}
+.palab-about .about-lead{font-size:17px;line-height:1.95;color:#506981;max-width:1050px;margin:0}
+.palab-about .about-section{margin-top:46px}
+.palab-about .about-section h2{font-size:26px;margin:0 0 18px}
+.palab-about .about-method-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.palab-about .about-method{border:1px solid #dce7f2;border-radius:15px;background:#f6f9fc;padding:22px 18px;min-width:0}
+.palab-about .about-method span{display:block;color:#2877af;font-size:12px;font-weight:800;margin-bottom:12px}
+.palab-about .about-method strong{display:block;font-size:21px;color:#193451;letter-spacing:-.04em;line-height:1.4}
+.palab-about .about-method p{font-size:14px;color:#587087;line-height:1.7;margin:12px 0 0}
+.palab-about .about-company{font-size:16px;line-height:1.85;color:#506981;margin:0 0 24px}
+.palab-about .about-team-figure{margin:0 0 28px}
+.palab-about .about-team-figure img{display:block;width:100%;height:auto;max-height:600px;object-fit:contain;object-position:center;border-radius:18px;background:#f3f7fb}
+.palab-about .about-team-figure figcaption{font-size:12px;color:#70849a;margin-top:9px}
+.palab-about .about-people-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.palab-about .about-person{display:flex;align-items:flex-start;gap:18px;padding:23px;border:1px solid #dce7f2;border-radius:16px;background:white;min-width:0}
+.palab-about .about-person-photo{width:90px;height:110px;object-fit:cover;object-position:center top;border-radius:13px;flex:0 0 90px;background:#e7eff7}
+.palab-about .about-person-content{min-width:0}
+.palab-about .about-person h3{font-size:20px;margin:0 0 9px;color:#193451}
+.palab-about .about-person h3 span{font-size:13px;font-weight:600;color:#70849a;margin-left:8px}
+.palab-about .about-person-trait{font-size:14px;font-weight:800;color:#2877af;line-height:1.6;margin:0 0 9px}
+.palab-about .about-person-desc{font-size:14px;line-height:1.85;color:#52677e;margin:0 0 13px}
+.palab-about .about-person-quote{font-size:13px;font-weight:700;line-height:1.75;color:#234e71;background:#f2f7fc;border-left:3px solid #8dbce1;padding:10px 12px;margin:0}
+.palab-about .about-cta{display:inline-flex;gap:12px;align-items:center;background:#193451;color:white!important;text-decoration:none;border-radius:30px;font-size:14px;font-weight:800;padding:13px 23px;margin-top:32px}
+@media(max-width:900px){.palab-about .about-method-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.palab-about .about-people-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.palab-page.palab-about{padding:24px 17px 56px}.palab-about .about-brand{font-size:40px}.palab-about .about-lead{font-size:15px}.palab-about .about-method-grid{gap:9px}.palab-about .about-method{padding:16px 12px}.palab-about .about-method strong{font-size:18px}.palab-about .about-method p{font-size:12px}.palab-about .about-person{gap:12px;padding:15px}.palab-about .about-person-photo{width:68px;height:85px;flex-basis:68px}.palab-about .about-person h3{font-size:18px}.palab-about .about-person h3 span{display:block;margin:3px 0 0}}
+
+/* v1.1: About-specific refinements; no changes to Home or Seasons */
+body:has(.palab-about) #title-block-header{display:none!important}
+.palab-about .about-opening{border-bottom:0;padding-bottom:0}
+.palab-about .about-section{margin-top:65px}
+.palab-about .about-brand{display:flex;align-items:baseline;gap:14px;font-family:'Noto Sans KR',sans-serif;font-size:initial;letter-spacing:normal;line-height:1.2;margin:0 0 27px}
+.palab-about .about-brand-wordmark{display:inline-block;font-family:'Noto Sans KR',sans-serif;font-size:32px;font-weight:800;letter-spacing:-1.3px;line-height:1.2;background:linear-gradient(to right,#1b3453 0%,#1b3453 42%,#1676b9 42%,#1676b9 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.palab-about .about-brand .about-brand-subtitle{display:inline-block;font-family:'Noto Sans KR',sans-serif;font-size:14px;font-weight:500;letter-spacing:0;color:#70849a;margin:0}
+.palab-about .about-cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:36px}
+.palab-about .about-cta-row .about-cta{margin-top:0}
+.palab-about .about-cta-home{background:#eaf2fa;color:#193451!important;border:1px solid #d4e3f0}
+@media(max-width:560px){.palab-about .about-section{margin-top:50px}.palab-about .about-brand{flex-wrap:wrap;gap:6px 12px}.palab-about .about-brand-wordmark{font-size:36px}.palab-about .about-brand .about-brand-subtitle{font-size:12px}}
