@@ -303,9 +303,21 @@ body:has(.palab-home) .palab-hero .palab-home-container {
   .palab-hero-image { position: relative; inset: auto; width: 100%; height: clamp(220px, 54vw, 340px); }
   .palab-team-image { object-position: center 40%; }
   .palab-hero-image::after { background: linear-gradient(180deg, #142d4c 0%, rgba(20,45,76,0) 24%); }
-  .palab-character-label { bottom: 4%; min-width: 0; max-width: 25%; padding: 3px 4px; }
-  .palab-character-label strong { font-size: clamp(9px, 2vw, 11px); }
-  .palab-character-label span { font-size: clamp(7px, 1.5vw, 9px); }
+  /* Mobile-only: four equal-width nameplates with visible gaps. */
+  .palab-hero-image .palab-character-label {
+    bottom: 4%;
+    width: 23%;
+    min-width: 0;
+    max-width: 23%;
+    height: 54px;
+    padding: 4px 1px;
+  }
+  .palab-hero-image .palab-character-label:nth-child(1) { left: 12.5%; }
+  .palab-hero-image .palab-character-label:nth-child(2) { left: 37.5%; }
+  .palab-hero-image .palab-character-label:nth-child(3) { left: 62.5%; }
+  .palab-hero-image .palab-character-label:nth-child(4) { left: 87.5%; }
+  .palab-hero-image .palab-character-label strong { font-size: 12px; }
+  .palab-hero-image .palab-character-label span { font-size: 10px; }
 }
 @media (prefers-reduced-motion: reduce) { .palab-card, .palab-button { transition: none; } }
 
