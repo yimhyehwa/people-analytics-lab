@@ -135,8 +135,133 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="palab-story">
-<p class="crumb"><a href="index.html">Season 01</a> / EP02</p><div class="eyebrow">EP02 · EXPLORATION</div><h1>어디에서 사람들이 떠나고 있을까?</h1><p class="intro">전체 평균을 넘어, 이탈이 집중되는 집단을 찾습니다.</p><div class="mission-banner"><strong>이번 에피소드의 질문</strong><p>어떤 조직에서 이직률이 상대적으로 높고, 어디부터 확인해야 할까?</p></div><div class="learning-frame"><div class="step-nav" role="tablist" aria-label="학습 단계"><button type="button" role="tab" aria-controls="stage-1" aria-selected="false">① 상황</button><button type="button" role="tab" aria-controls="stage-2" aria-selected="false">② 미션</button><button type="button" role="tab" aria-controls="stage-3" aria-selected="false">③ 실습</button><button type="button" role="tab" aria-controls="stage-4" aria-selected="false">④ 해석</button><button type="button" role="tab" aria-controls="stage-5" aria-selected="false">⑤ 완료</button></div><section class="step-pane" id="stage-1"><div class="eyebrow">STEP 1 / 5</div><h2 class="anchored">현업에서 들려온 이야기</h2><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/na.png" alt="인물 프로필"><div><div class="speaker">나준호<span>HRBP</span></div><p>“영업과 고객서비스 조직에서 인력 공백을 특히 많이 이야기합니다. 수치로 확인해 보겠습니다.”</p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/cham.png" alt="인물 프로필"><div><div class="speaker">참지혜<span>CHRO</span></div><p>“퇴직자 수가 많은 조직이 반드시 이직률도 높은 것은 아닙니다.”</p></div></article></section><section class="step-pane" id="stage-2"><div class="eyebrow">STEP 2 / 5</div><h2 class="anchored">이번 미션</h2><ol><li>2025년 조직별 자발적 퇴직자 수와 인원을 비교하세요.</li><li>조직별 자발적 이직률을 계산하고 순위를 정하세요.</li><li>우선 검토할 조직 2곳을 고르고 이유를 설명하세요.</li></ol></section><section class="step-pane" id="stage-3"><div class="eyebrow">STEP 3 / 5</div><h2 class="anchored">부서별 이직률 직접 집계</h2><p>EP01과 같은 직원별 원장을 사용합니다. 2025년의 부서별 연초·연말 인원과 자발적 퇴직자 수를 직접 구하세요.</p><a class="download" href="../../data/mirae_living_hr_raw.csv" download="">직원별 인사 원장 CSV 다운로드 ↓</a><p class="note">부서별 자발적 이직률 = 해당 부서의 2025년 자발적 퇴직자 수 ÷ 해당 부서 연초·연말 재직 인원 평균 × 100. 이 데이터에서는 직원의 부서 이동을 모델링하지 않았습니다.</p><p><strong>2025년 자발적 이직률이 가장 높은 부서는 어디이며, 몇 %인가요?</strong></p><input class="input-answer" id="answer-ep02" type="number" step="0.01" placeholder="최고 이직률 %" aria-label="최고 조직 이직률"><button type="button" class="action" data-answer="17.29" data-tolerance="0.05" data-input="answer-ep02" data-output="feedback-ep02">정답 확인</button><p id="feedback-ep02" class="check-result" aria-live="polite"></p></section><section class="step-pane" id="stage-4"><div class="eyebrow">STEP 4 / 5</div><h2 class="anchored">비율과 규모를 함께 읽기</h2><details><summary>정답 및 조직별 이직률 보기</summary><div class="answer-bars"><div><span>고객서비스</span><i style="width:100%"></i><b>17.29%</b></div><div><span>영업</span><i style="width:91%"></i><b>15.79%</b></div><div><span>생산</span><i style="width:61%"></i><b>10.61%</b></div><div><span>경영지원</span><i style="width:57%"></i><b>9.85%</b></div><div><span>연구개발</span><i style="width:43%"></i><b>7.44%</b></div></div><p>2025년 고객서비스: 자발적 퇴직 37명 ÷ 평균 인원 214명 × 100 = <strong>17.29%</strong>. 영업 15.79%, 생산 10.61%, 경영지원 9.85%, 연구개발 7.44%입니다.</p></details><p>고객서비스는 이직률이 가장 높지만, <strong>퇴직자 수는 생산(46명)</strong>이 가장 많습니다. 비율과 인원수를 함께 비교해야 합니다.</p><p class="note">조직 간 차이는 탐색 결과이며, 조직 특성 때문에 이직이 발생했다고 단정할 수 없습니다.</p></section><section class="step-pane" id="stage-5"><div class="eyebrow">STEP 5 / 5</div><h2 class="anchored">다음 분석 질문 만들기</h2><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/wang.png" alt="인물 프로필"><div><div class="speaker">왕성훈<span>CEO</span></div><p>“어디에서 이탈이 많은지는 알겠습니다. 그 이유도 확인할 수 있을까요?”</p></div></article><div class="checklist"><label><input type="checkbox">조직별 분모가 다른 점을 반영했다.</label><label><input type="checkbox">이직률과 퇴직자 수를 모두 비교했다.</label><label><input type="checkbox">집단 차이를 원인으로 단정하지 않았다.</label></div><p><strong>산출물:</strong> 우선 검토 조직 2곳과 근거를 담은 분석 메모</p></section><div class="step-actions"><button type="button" class="action secondary prev-step">← 이전 단계</button><button type="button" class="action next-step">다음 단계 →</button></div></div><nav class="ep-nav"><a href="ep01.html">← 이전으로</a><a href="ep03.html">다음으로 →</a></nav><p class="footer-hint">※ 예시 데이터는 합성 데이터입니다. 이 페이지의 풀이 상태는 브라우저를 닫으면 저장되지 않습니다.</p>
+<p class="crumb"><a href="index.html">Season 01</a> / EP02</p><div class="eyebrow">EP02 · EXPLORATION</div><h1>어디에서 사람들이 떠나고 있을까?</h1><p class="intro">전체 평균을 넘어, 이탈이 집중되는 집단을 찾습니다.</p><div class="mission-banner"><strong>이번 에피소드의 질문</strong><p>어떤 조직에서 이직률이 상대적으로 높고, 어디부터 확인해야 할까?</p></div><div class="learning-frame"><div class="step-nav" role="tablist" aria-label="학습 단계"><button type="button" role="tab" aria-controls="stage-1" aria-selected="false">① 상황</button><button type="button" role="tab" aria-controls="stage-2" aria-selected="false">② 미션</button><button type="button" role="tab" aria-controls="stage-3" aria-selected="false">③ 실습</button><button type="button" role="tab" aria-controls="stage-4" aria-selected="false">④ 해석</button><button type="button" role="tab" aria-controls="stage-5" aria-selected="false">⑤ 보고</button><button type="button" role="tab" aria-controls="stage-6" aria-selected="false">⑥ 완료</button></div><section class="step-pane" id="stage-1"><div class="eyebrow">STEP 1 / 6</div><h2 class="anchored">경영진의 질문과 접근 방식</h2><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/wang.png" alt="왕성훈"><div><div class="speaker">왕성훈<span>CEO</span></div><p>“전사 이직률이 높아졌다는 것은 확인했습니다. 특정 부서에 이직 문제가 집중되어 있습니까?”</p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/cham.png" alt="참지혜"><div><div class="speaker">참지혜<span>CHRO</span></div><p>“부서마다 인력 규모가 다릅니다. 퇴직자 수와 이직률을 함께 비교해 봅시다.”</p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/na.png" alt="나준호"><div><div class="speaker">나준호<span>HRBP</span></div><p>“영업과 고객서비스에서 인력 공백 이야기가 많이 나옵니다. 실제 데이터에서도 그런지 확인하고 싶습니다.”</p></div></article><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/jeong.png" alt="정하은"><div><div class="speaker">정하은<span>HRIS</span></div><p>“2025년 각 부서의 재직 인원과 자발적 퇴직자 수를 동일한 기준으로 집계하고 전사 이직률과 비교하겠습니다.”</p></div></article></section>
+<section class="step-pane" id="stage-2"><div class="eyebrow">STEP 2 / 6</div><h2 class="anchored">이번 미션</h2><ol><li>2025년 부서별 연초·연말 및 평균 재직 인원을 산출하세요.</li><li>부서별 자발적 퇴직자 수와 이직률을 계산하세요.</li><li>전사 이직률과 비교하고 우선 검토할 부서 두 곳을 근거와 함께 선정하세요.</li></ol><p class="note">EP01의 집계 기준을 유지하세요. 구체적인 수식은 해석 단계에서 확인할 수 있습니다.</p></section>
+<section class="step-pane" id="stage-3"><div class="eyebrow">STEP 3 / 6</div><h2 class="anchored">부서별 이직률 직접 집계</h2><p>EP01과 같은 직원별 원장을 사용합니다.</p><a class="download" href="../../data/mirae_living_hr_raw.csv" download="">직원별 인사 원장 CSV 다운로드 ↓</a><p class="note">기준일 재직: 입사일 ≤ 기준일이며 퇴사일이 비어 있거나 기준일보다 늦은 직원. 이직률 = 자발적 퇴직자 수 ÷ 연초·연말 평균 재직 인원 × 100. 부서 이동은 모델링하지 않았습니다.</p><details><summary>실습 힌트</summary><p>부서 조건은 모든 집계에 적용합니다. 퇴직자 집계에는 기간과 퇴직 유형도 적용하세요. 재직 인원에는 퇴직 유형을 제한하지 않습니다.</p></details><p>직접 계산한 값을 입력하세요. 이직률은 17.29와 같은 숫자 형식으로 입력합니다.</p><div class="table-scroll">
+<table class="data-table caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">부서</th>
+<th data-quarto-table-cell-role="th">연초</th>
+<th data-quarto-table-cell-role="th">연말</th>
+<th data-quarto-table-cell-role="th">평균</th>
+<th data-quarto-table-cell-role="th">자발적 퇴직</th>
+<th data-quarto-table-cell-role="th">이직률(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">경영지원</th>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="경영지원 연초" data-ep02-key="0-1"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="경영지원 연말" data-ep02-key="0-2"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="경영지원 평균" data-ep02-key="0-3"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="경영지원 자발적 퇴직" data-ep02-key="0-4"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="경영지원 이직률(%)" data-ep02-key="0-5"></td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">고객서비스</th>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="고객서비스 연초" data-ep02-key="1-1"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="고객서비스 연말" data-ep02-key="1-2"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="고객서비스 평균" data-ep02-key="1-3"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="고객서비스 자발적 퇴직" data-ep02-key="1-4"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="고객서비스 이직률(%)" data-ep02-key="1-5"></td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">생산</th>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="생산 연초" data-ep02-key="2-1"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="생산 연말" data-ep02-key="2-2"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="생산 평균" data-ep02-key="2-3"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="생산 자발적 퇴직" data-ep02-key="2-4"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="생산 이직률(%)" data-ep02-key="2-5"></td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">연구개발</th>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="연구개발 연초" data-ep02-key="3-1"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="연구개발 연말" data-ep02-key="3-2"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="연구개발 평균" data-ep02-key="3-3"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="연구개발 자발적 퇴직" data-ep02-key="3-4"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="연구개발 이직률(%)" data-ep02-key="3-5"></td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">영업</th>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="영업 연초" data-ep02-key="4-1"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="영업 연말" data-ep02-key="4-2"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="영업 평균" data-ep02-key="4-3"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="영업 자발적 퇴직" data-ep02-key="4-4"></td>
+<td><input class="input-answer" style="width:100%;min-width:70px" type="number" min="0" step="any" aria-label="영업 이직률(%)" data-ep02-key="4-5"></td>
+</tr>
+</tbody>
+</table>
+</div><button class="action" id="ep02-check" type="button">중간 계산 및 정답 확인</button><p id="ep02-check-result" class="check-result" aria-live="polite"></p><p>가장 높은 이직률의 부서를 선택하세요.</p><select id="ep02-dept" aria-label="최고 이직률 부서"><option value="">선택</option><option>경영지원</option><option>고객서비스</option><option>생산</option><option>연구개발</option><option>영업</option></select></section>
+<section class="step-pane" id="stage-4"><div class="eyebrow">STEP 4 / 6</div><h2 class="anchored">비율과 규모를 함께 읽기</h2><details><summary>정답 및 계산 과정 보기</summary><div class="table-scroll">
+<table class="data-table caption-top table">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">부서</th>
+<th data-quarto-table-cell-role="th">연초</th>
+<th data-quarto-table-cell-role="th">연말</th>
+<th data-quarto-table-cell-role="th">평균</th>
+<th data-quarto-table-cell-role="th">자발적 퇴직</th>
+<th data-quarto-table-cell-role="th">이직률(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>고객서비스</td>
+<td>218</td>
+<td>210</td>
+<td>214</td>
+<td>37</td>
+<td>17.29</td>
+</tr>
+<tr class="even">
+<td>영업</td>
+<td>211</td>
+<td>207</td>
+<td>209</td>
+<td>33</td>
+<td>15.79</td>
+</tr>
+<tr class="odd">
+<td>생산</td>
+<td>432</td>
+<td>435</td>
+<td>433.5</td>
+<td>46</td>
+<td>10.61</td>
+</tr>
+<tr class="even">
+<td>경영지원</td>
+<td>97</td>
+<td>106</td>
+<td>101.5</td>
+<td>10</td>
+<td>9.85</td>
+</tr>
+<tr class="odd">
+<td>연구개발</td>
+<td>242</td>
+<td>242</td>
+<td>242</td>
+<td>18</td>
+<td>7.44</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">전사</th>
+<td>1200</td>
+<td>1200</td>
+<td>1200</td>
+<td>144</td>
+<td>12.00</td>
+</tr>
+</tbody>
+</table>
+</div><div class="answer-bars"><div><span>고객서비스</span><i style="width:100.00%"></i><b>17.29%</b></div><div><span>영업</span><i style="width:91.32%"></i><b>15.79%</b></div><div><span>생산</span><i style="width:61.37%"></i><b>10.61%</b></div><div><span>경영지원</span><i style="width:56.98%"></i><b>9.85%</b></div><div><span>연구개발</span><i style="width:43.02%"></i><b>7.44%</b></div></div><p>전사 기준 12.00%. 고객서비스는 5.29%p, 영업은 3.79%p 높습니다. 생산은 10.61%로 전사보다 낮지만 퇴직자 수는 46명으로 가장 많습니다.</p></details><details class="excel-guide"><summary>Excel에서 원자료로 재현하기 · 단계별 실습 가이드</summary><h3 class="anchored">1. 원자료와 분석 시트 준비</h3><p>CSV를 UTF-8로 불러오고 날짜가 실제 Excel 날짜인지 확인합니다. 원자료 시트 이름은 raw, 데이터 범위는 2~1595행입니다. A: 사번, B: 입사일, C: 퇴사일, D: 퇴직 유형, E: 부서. 새 시트 A2:A6에 경영지원, 고객서비스, 생산, 연구개발, 영업을 입력하고 H1에 2025를 입력하세요. B~F열은 연초, 연말, 평균, 자발적 퇴직, 이직률 순서입니다.</p><h3 class="anchored">2. 연초·연말 재직 인원: AND와 OR</h3><p>부서와 입사일 조건은 AND입니다. 퇴사일이 기준일보다 늦거나 빈 셀이라는 OR 조건은 서로 겹치지 않는 두 COUNTIFS를 더해 구현합니다. 퇴사일 당일은 재직에서 제외합니다.</p><p><strong>B2 · 연초</strong></p><pre><code>=COUNTIFS(raw!$E$2:$E$1595,$A2,raw!$B$2:$B$1595,"&lt;="&amp;DATE($H$1,1,1),raw!$C$2:$C$1595,"&gt;"&amp;DATE($H$1,1,1))+COUNTIFS(raw!$E$2:$E$1595,$A2,raw!$B$2:$B$1595,"&lt;="&amp;DATE($H$1,1,1),raw!$C$2:$C$1595,"")</code></pre><p><strong>C2 · 연말</strong></p><pre><code>=COUNTIFS(raw!$E$2:$E$1595,$A2,raw!$B$2:$B$1595,"&lt;="&amp;DATE($H$1,12,31),raw!$C$2:$C$1595,"&gt;"&amp;DATE($H$1,12,31))+COUNTIFS(raw!$E$2:$E$1595,$A2,raw!$B$2:$B$1595,"&lt;="&amp;DATE($H$1,12,31),raw!$C$2:$C$1595,"")</code></pre><h3 class="anchored">3. 평균 재직 인원과 자발적 퇴직자 수</h3><p>D2</p><pre><code>=AVERAGE(B2:C2)</code></pre><p>E2 · 부서, 기간 시작, 기간 종료, 퇴직 유형의 네 조건을 모두 충족하는 행을 집계합니다.</p><pre><code>=COUNTIFS(raw!$E$2:$E$1595,$A2,raw!$C$2:$C$1595,"&gt;="&amp;DATE($H$1,1,1),raw!$C$2:$C$1595,"&lt;"&amp;DATE($H$1+1,1,1),raw!$D$2:$D$1595,"자발적 퇴직")</code></pre><p>$A2는 부서 열을 고정하고 행은 변경합니다. $H$1은 연도 셀을 고정합니다. raw 범위는 절대참조로 유지합니다. B2:F2를 6행까지 복사하세요.</p><h3 class="anchored">4. 이직률과 전사 비교</h3><p>F2 · 백분율 서식, 소수 둘째 자리</p><pre><code>=E2/D2</code></pre><p>전사 이직률은 <code>=SUM(E2:E6)/SUM(D2:D6)</code> 입니다. 부서별 이직률의 단순 평균이 아니라 평균 재직 인원으로 가중한 비율입니다.</p><h3 class="anchored">5. 교차 검증과 오류 점검</h3><ul><li>B열과 C열의 합계는 각각 1,200명, E열 합계는 144명인가?</li><li>부서명과 자발적 퇴직의 표기가 원자료와 일치하는가?</li><li>날짜가 텍스트로 저장되거나 퇴사일 빈 셀이 누락되지 않았는가?</li><li>재직 인원 집계에 퇴직 유형 조건을 잘못 적용하지 않았는가?</li></ul><p class="note">실제 기업에서는 부서 이동 이력과 기준일별 소속을 별도로 확인해야 합니다. 이 데이터는 직원당 한 행이며 부서 이동을 모델링하지 않습니다.</p></details><p>이직률과 퇴직자 수는 다른 관점입니다. 높은 이직률은 상대적 이탈 수준을, 많은 퇴직자 수는 인력 공백의 규모를 살펴보는 출발점입니다. 2025년 부서별 비교만으로 어느 부서의 이직률이 전년보다 상승했는지 또는 상승 원인을 확정할 수 없습니다.</p></section>
+<section class="step-pane" id="stage-5"><div class="eyebrow">STEP 5 / 6</div><h2 class="anchored">경영진에게 보고하기</h2><p>경영진에게 분석 목적, 주요 수치, 우선 검토 부서 두 곳과 근거, 후속 분석 과제를 보고하세요.</p><label class="report-label" for="ep02-report">나의 경영진 보고</label><textarea class="report-input" id="ep02-report" rows="8" placeholder="경영진에게 보고하듯 작성하세요."></textarea><p class="report-meta"><span id="ep02-count">0자</span> · 서버에 전송되지 않습니다.</p><button class="action" id="ep02-submit" disabled="" type="button">보고 완료 · 멘토 가이드 보기</button><div class="report-feedback" id="ep02-feedback" hidden=""><h3 class="anchored">PALab 멘토의 보고 예시</h3><p><strong>2025년 부서별 자발적 이직률 진단</strong></p><p>전사 자발적 이직률은 12.00%입니다. 고객서비스(17.29%, 37명)와 영업(15.79%, 33명)은 전사보다 각각 5.29%p, 3.79%p 높아 상대적 이탈 수준을 기준으로 우선 검토할 것을 제안합니다. 두 부서의 퇴직자는 70명으로 전사 144명의 약 48.6%입니다. 생산은 이직률 10.61%이나 퇴직자가 46명으로 가장 많아 인력 공백 규모도 별도로 점검할 필요가 있습니다.</p><p>다만 이 결과만으로 부서별 이직률의 상승 여부나 원인을 확정할 수 없습니다. 부서별 과거 추이와 근속, 직급, 보상 만족도 등 관련 요인을 추가로 살펴보겠습니다.</p><h3 class="anchored">보고서 해설 및 자기평가</h3><p>상대적 이탈 수준을 우선 기준으로 삼은 예시입니다. 사업상 영향과 퇴직자 규모를 근거로 다른 우선순위를 제안할 수도 있습니다.</p><div class="checklist report-checklist"><label><input type="checkbox">전사 및 부서별 수치를 정확히 제시했다.</label><label><input type="checkbox">이직률과 퇴직자 규모를 구분했다.</label><label><input type="checkbox">우선 검토 부서와 선정 근거를 설명했다.</label><label><input type="checkbox">원인을 단정하지 않고 후속 과제를 제안했다.</label></div><p id="ep02-self" class="report-meta">자기점검 0/4개</p><details><summary>내가 작성한 보고서 다시 보기</summary><p class="report-copy" id="ep02-copy"></p></details></div></section>
+<section class="step-pane" id="stage-6"><div class="eyebrow">STEP 6 / 6</div><h2 class="anchored">학습 완료 · 다음 분석으로</h2><article class="dialogue"><img class="avatar-photo" src="../../assets/images/season01/wang.png" alt="왕성훈"><div><div class="speaker">왕성훈<span>CEO</span></div><p>“어느 부서를 먼저 살펴볼지 알겠습니다. 이제 이직과 관련된 요인을 확인해 봅시다.”</p></div></article><div class="checklist"><label><input type="checkbox">다중 조건 집계를 재현할 수 있다.</label><label><input type="checkbox">부서별 합계와 전사 결과를 교차 검증했다.</label><label><input type="checkbox">비율과 규모를 구분해 보고했다.</label></div><p><strong>산출물:</strong> 부서별 이직률 분석표와 경영진 보고서</p></section>
+<div class="step-actions"><button type="button" class="action secondary prev-step">← 이전 단계</button><button type="button" class="action next-step">다음 단계 →</button></div></div><nav class="ep-nav"><a href="ep01.html">← 이전으로</a><a href="ep03.html">다음으로 →</a></nav><p class="footer-hint">※ 예시 데이터는 합성 데이터입니다. 이 페이지의 풀이 상태는 브라우저를 닫으면 저장되지 않습니다.</p>
 </div>
+<script src="../../scripts/palab-ep02.js" defer=""></script>
 <script src="../../scripts/palab-learning.js" defer=""></script>
 
 
